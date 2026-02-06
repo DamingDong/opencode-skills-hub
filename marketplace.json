@@ -1,306 +1,3146 @@
 {
   "name": "OpenCode Skills Hub",
   "description": "精选 Claude Code 技能，OpenCode 开箱即用",
-  "version": "1.0.0",
-  "author": "DongDaming",
-  "github": "DongDaming/opencode-skills-hub",
+  "version": "1.1.0",
+  "author": "DamingDong",
+  "github": "DamingDong/opencode-skills-hub",
   "license": "MIT",
+  "total_skills": 285,
   "skills": [
     {
-      "name": "pdf",
-      "description": "PDF processing and manipulation - read, extract, merge, split, create",
-      "category": "document",
+      "name": "theme-factory",
+      "description": "Official Anthropic skill: Theme Factory",
+      "category": "official",
       "source": "official",
-      "tags": ["document", "pdf", "file-processing"],
-      "stars": 1000
-    },
-    {
-      "name": "docx",
-      "description": "Word document processing - create, edit, format Word documents",
-      "category": "document",
-      "source": "official",
-      "tags": ["document", "word", "docx"],
-      "stars": 800
+      "tags": [
+        "official",
+        "theme-factory"
+      ],
+      "stars": 100
     },
     {
       "name": "xlsx",
-      "description": "Excel spreadsheet processing - read, write, format Excel files",
-      "category": "document",
+      "description": "Official Anthropic skill: Xlsx",
+      "category": "official",
       "source": "official",
-      "tags": ["document", "excel", "spreadsheet"],
-      "stars": 700
+      "tags": [
+        "official",
+        "xlsx"
+      ],
+      "stars": 100
     },
     {
-      "name": "pptx",
-      "description": "PowerPoint presentation creation and editing",
-      "category": "document",
+      "name": "pdf",
+      "description": "Official Anthropic skill: Pdf",
+      "category": "official",
       "source": "official",
-      "tags": ["document", "powerpoint", "presentation"],
-      "stars": 600
+      "tags": [
+        "official",
+        "pdf"
+      ],
+      "stars": 100
     },
     {
       "name": "skill-creator",
-      "description": "Create new OpenCode skills following best practices",
-      "category": "meta",
+      "description": "Official Anthropic skill: Skill Creator",
+      "category": "official",
       "source": "official",
-      "tags": ["skill", "creation", "meta"],
-      "stars": 1200
+      "tags": [
+        "official",
+        "skill-creator"
+      ],
+      "stars": 100
     },
     {
-      "name": "mcp-builder",
-      "description": "Build Model Context Protocol servers for extending AI capabilities",
-      "category": "development",
+      "name": "pptx",
+      "description": "Official Anthropic skill: Pptx",
+      "category": "official",
       "source": "official",
-      "tags": ["mcp", "server", "integration"],
-      "stars": 900
-    },
-    {
-      "name": "web-artifacts-builder",
-      "description": "Build complex React components with Tailwind CSS and shadcn/ui",
-      "category": "frontend",
-      "source": "official",
-      "tags": ["react", "tailwind", "ui", "frontend"],
-      "stars": 1100
+      "tags": [
+        "official",
+        "pptx"
+      ],
+      "stars": 100
     },
     {
       "name": "frontend-design",
-      "description": "Create distinctive, production-grade frontend interfaces",
-      "category": "frontend",
+      "description": "Official Anthropic skill: Frontend Design",
+      "category": "official",
       "source": "official",
-      "tags": ["design", "ui", "frontend"],
-      "stars": 850
+      "tags": [
+        "official",
+        "frontend-design"
+      ],
+      "stars": 100
     },
     {
-      "name": "theme-factory",
-      "description": "Style artifacts with pre-set themes or custom designs",
-      "category": "frontend",
+      "name": "mcp-builder",
+      "description": "Official Anthropic skill: Mcp Builder",
+      "category": "official",
       "source": "official",
-      "tags": ["theme", "style", "design"],
-      "stars": 500
+      "tags": [
+        "official",
+        "mcp-builder"
+      ],
+      "stars": 100
     },
     {
-      "name": "tdd",
-      "description": "Test-Driven Development workflow - write tests first, then code",
-      "category": "development",
-      "source": "community",
-      "tags": ["testing", "tdd", "quality"],
-      "stars": 1500
+      "name": "docx",
+      "description": "Official Anthropic skill: Docx",
+      "category": "official",
+      "source": "official",
+      "tags": [
+        "official",
+        "docx"
+      ],
+      "stars": 100
     },
     {
-      "name": "git-workflows",
-      "description": "Git workflow management and best practices",
-      "category": "development",
-      "source": "community",
-      "tags": ["git", "workflow", "version-control"],
-      "stars": 900
-    },
-    {
-      "name": "documentation",
-      "description": "Generate and maintain project documentation",
-      "category": "documentation",
-      "source": "community",
-      "tags": ["docs", "documentation"],
-      "stars": 700
-    },
-    {
-      "name": "dockerfile-generator",
-      "description": "Generate optimized Dockerfiles for various runtimes",
-      "category": "devops",
-      "source": "community",
-      "tags": ["docker", "container", "devops"],
-      "stars": 800
-    },
-    {
-      "name": "react-component-generator",
-      "description": "Generate React components with best practices",
-      "category": "frontend",
-      "source": "community",
-      "tags": ["react", "component", "frontend"],
-      "stars": 1100
-    },
-    {
-      "name": "tailwind-class-optimizer",
-      "description": "Optimize and organize Tailwind CSS classes",
-      "category": "frontend",
-      "source": "community",
-      "tags": ["tailwind", "css", "optimization"],
-      "stars": 600
-    },
-    {
-      "name": "seo-meta-generator",
-      "description": "Generate SEO meta tags for web pages",
-      "category": "frontend",
-      "source": "community",
-      "tags": ["seo", "meta", "web"],
-      "stars": 500
-    },
-    {
-      "name": "jest-test-generator",
-      "description": "Generate Jest test files and test cases",
-      "category": "testing",
-      "source": "community",
-      "tags": ["jest", "testing", "javascript"],
-      "stars": 700
-    },
-    {
-      "name": "vitest-test-creator",
-      "description": "Create Vitest test suites for Vue and Vite projects",
-      "category": "testing",
-      "source": "community",
-      "tags": ["vitest", "testing", "vue"],
-      "stars": 500
-    },
-    {
-      "name": "integration-test-setup",
-      "description": "Set up integration testing infrastructure",
-      "category": "testing",
-      "source": "community",
-      "tags": ["testing", "integration"],
-      "stars": 600
-    },
-    {
-      "name": "test-data-builder",
-      "description": "Generate test data for automated tests",
-      "category": "testing",
-      "source": "community",
-      "tags": ["testing", "test-data", "fixtures"],
-      "stars": 400
-    },
-    {
-      "name": "api-mock-generator",
-      "description": "Create API mocks for testing and development",
-      "category": "backend",
-      "source": "community",
-      "tags": ["api", "mock", "testing"],
-      "stars": 500
-    },
-    {
-      "name": "api-testing-helper",
-      "description": "Helper for API testing and validation",
-      "category": "backend",
-      "source": "community",
-      "tags": ["api", "testing", "validation"],
-      "stars": 450
-    },
-    {
-      "name": "openapi-spec-generator",
-      "description": "Generate OpenAPI specifications from code",
-      "category": "backend",
-      "source": "community",
-      "tags": ["openapi", "api", "specification"],
-      "stars": 400
-    },
-    {
-      "name": "express-route-generator",
-      "description": "Generate Express.js route handlers",
-      "category": "backend",
-      "source": "community",
-      "tags": ["express", "nodejs", "backend"],
-      "stars": 550
-    },
-    {
-      "name": "fastapi-router-creator",
-      "description": "Create FastAPI route modules",
-      "category": "backend",
-      "source": "community",
-      "tags": ["fastapi", "python", "backend"],
-      "stars": 500
-    },
-    {
-      "name": "database-schema-designer",
-      "description": "Design and generate database schemas",
-      "category": "backend",
-      "source": "community",
-      "tags": ["database", "schema", "sql"],
-      "stars": 600
-    },
-    {
-      "name": "dynamodb-table-designer",
-      "description": "Design AWS DynamoDB table schemas",
-      "category": "cloud",
-      "source": "community",
-      "tags": ["aws", "dynamodb", "nosql"],
-      "stars": 400
-    },
-    {
-      "name": "cdk-stack-generator",
-      "description": "Generate AWS CDK infrastructure stacks",
-      "category": "cloud",
-      "source": "community",
-      "tags": ["aws", "cdk", "infrastructure"],
-      "stars": 450
-    },
-    {
-      "name": "cloudformation-template-creator",
-      "description": "Create AWS CloudFormation templates",
-      "category": "cloud",
-      "source": "community",
-      "tags": ["aws", "cloudformation", "infrastructure"],
-      "stars": 400
-    },
-    {
-      "name": "readme-generator",
-      "description": "Generate professional README files",
-      "category": "documentation",
-      "source": "community",
-      "tags": ["readme", "documentation"],
-      "stars": 500
+      "name": "web-artifacts-builder",
+      "description": "Official Anthropic skill: Web Artifacts Builder",
+      "category": "official",
+      "source": "official",
+      "tags": [
+        "official",
+        "web-artifacts-builder"
+      ],
+      "stars": 100
     },
     {
       "name": "sql-transform-helper",
-      "description": "Transform and optimize SQL queries",
-      "category": "database",
+      "description": "Claude Code community skill: Sql Transform Helper",
+      "category": "community",
       "source": "community",
-      "tags": ["sql", "database", "optimization"],
-      "stars": 450
+      "tags": [
+        "community",
+        "sql-transform-helper"
+      ],
+      "stars": 50
     },
     {
-      "name": "data-quality-checker",
-      "description": "Check and validate data quality",
-      "category": "data",
+      "name": "gradient-clipping-helper",
+      "description": "Claude Code community skill: Gradient Clipping Helper",
+      "category": "community",
       "source": "community",
-      "tags": ["data", "quality", "validation"],
-      "stars": 350
+      "tags": [
+        "community",
+        "gradient-clipping-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "data-normalization-tool",
+      "description": "Claude Code community skill: Data Normalization Tool",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "data-normalization-tool"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "connection-pool-analyzer",
+      "description": "Claude Code community skill: Connection Pool Analyzer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "connection-pool-analyzer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "memory-profiler-setup",
+      "description": "Claude Code community skill: Memory Profiler Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "memory-profiler-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "cron-job-scheduler",
+      "description": "Claude Code community skill: Cron Job Scheduler",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "cron-job-scheduler"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "elasticsearch-index-manager",
+      "description": "Claude Code community skill: Elasticsearch Index Manager",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "elasticsearch-index-manager"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "vault-secrets-integrator",
+      "description": "Claude Code community skill: Vault Secrets Integrator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "vault-secrets-integrator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "express-route-generator",
+      "description": "Claude Code community skill: Express Route Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "express-route-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "dbt-model-generator",
+      "description": "Claude Code community skill: Dbt Model Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "dbt-model-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "changelog-creator",
+      "description": "Claude Code community skill: Changelog Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "changelog-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "database-query-profiler",
+      "description": "Claude Code community skill: Database Query Profiler",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "database-query-profiler"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "nestjs-module-generator",
+      "description": "Claude Code community skill: Nestjs Module Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "nestjs-module-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "security-headers-generator",
+      "description": "Claude Code community skill: Security Headers Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "security-headers-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "model-evaluation-metrics",
+      "description": "Claude Code community skill: Model Evaluation Metrics",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "model-evaluation-metrics"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "branch-naming-helper",
+      "description": "Claude Code community skill: Branch Naming Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "branch-naming-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "property-based-test-helper",
+      "description": "Claude Code community skill: Property Based Test Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "property-based-test-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "input-validation-checker",
+      "description": "Claude Code community skill: Input Validation Checker",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "input-validation-checker"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "lazy-loading-implementer",
+      "description": "Claude Code community skill: Lazy Loading Implementer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "lazy-loading-implementer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "dbt-test-creator",
+      "description": "Claude Code community skill: Dbt Test Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "dbt-test-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "pagination-helper",
+      "description": "Claude Code community skill: Pagination Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "pagination-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "data-catalog-updater",
+      "description": "Claude Code community skill: Data Catalog Updater",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "data-catalog-updater"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "luigi-task-generator",
+      "description": "Claude Code community skill: Luigi Task Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "luigi-task-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "react-context-setup",
+      "description": "Claude Code community skill: React Context Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "react-context-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "envoy-proxy-config",
+      "description": "Claude Code community skill: Envoy Proxy Config",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "envoy-proxy-config"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "swagger-doc-creator",
+      "description": "Claude Code community skill: Swagger Doc Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "swagger-doc-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "api-caching-strategy",
+      "description": "Claude Code community skill: Api Caching Strategy",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "api-caching-strategy"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "gitlab-ci-basics",
+      "description": "Claude Code community skill: Gitlab Ci Basics",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "gitlab-ci-basics"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "terraform-state-manager",
+      "description": "Claude Code community skill: Terraform State Manager",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "terraform-state-manager"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "pipeline-monitoring-setup",
+      "description": "Claude Code community skill: Pipeline Monitoring Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "pipeline-monitoring-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "load-test-scenario-planner",
+      "description": "Claude Code community skill: Load Test Scenario Planner",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "load-test-scenario-planner"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "soak-test-planner",
+      "description": "Claude Code community skill: Soak Test Planner",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "soak-test-planner"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "status-code-recommender",
+      "description": "Claude Code community skill: Status Code Recommender",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "status-code-recommender"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "gatling-scenario-creator",
+      "description": "Claude Code community skill: Gatling Scenario Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "gatling-scenario-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "cert-manager-setup",
+      "description": "Claude Code community skill: Cert Manager Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "cert-manager-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "rds-instance-setup",
+      "description": "Claude Code community skill: Rds Instance Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "rds-instance-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "vue-composable-creator",
+      "description": "Claude Code community skill: Vue Composable Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "vue-composable-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "file-format-converter",
+      "description": "Claude Code community skill: File Format Converter",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "file-format-converter"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "cost-optimization-analyzer",
+      "description": "Claude Code community skill: Cost Optimization Analyzer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "cost-optimization-analyzer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "openapi-spec-generator",
+      "description": "Claude Code community skill: Openapi Spec Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "openapi-spec-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "pytorch-model-trainer",
+      "description": "Claude Code community skill: Pytorch Model Trainer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "pytorch-model-trainer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "model-explainability-tool",
+      "description": "Claude Code community skill: Model Explainability Tool",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "model-explainability-tool"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "bottleneck-identifier",
+      "description": "Claude Code community skill: Bottleneck Identifier",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "bottleneck-identifier"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "jenkins-pipeline-intro",
+      "description": "Claude Code community skill: Jenkins Pipeline Intro",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "jenkins-pipeline-intro"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "api-mock-generator",
+      "description": "Claude Code community skill: Api Mock Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "api-mock-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "jwt-token-validator",
+      "description": "Claude Code community skill: Jwt Token Validator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "jwt-token-validator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "git-workflow-manager",
+      "description": "Claude Code community skill: Git Workflow Manager",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "git-workflow-manager"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "release-notes-generator",
+      "description": "Claude Code community skill: Release Notes Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "release-notes-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "ecs-task-definition-creator",
+      "description": "Claude Code community skill: Ecs Task Definition Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "ecs-task-definition-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "data-augmentation-pipeline",
+      "description": "Claude Code community skill: Data Augmentation Pipeline",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "data-augmentation-pipeline"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "cross-validation-setup",
+      "description": "Claude Code community skill: Cross Validation Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "cross-validation-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "distributed-training-setup",
+      "description": "Claude Code community skill: Distributed Training Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "distributed-training-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "pre-commit-hook-setup",
+      "description": "Claude Code community skill: Pre Commit Hook Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "pre-commit-hook-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "data-partitioner",
+      "description": "Claude Code community skill: Data Partitioner",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "data-partitioner"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "compression-optimizer",
+      "description": "Claude Code community skill: Compression Optimizer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "compression-optimizer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "istio-service-mesh-config",
+      "description": "Claude Code community skill: Istio Service Mesh Config",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "istio-service-mesh-config"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "kubernetes-configmap-handler",
+      "description": "Claude Code community skill: Kubernetes Configmap Handler",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "kubernetes-configmap-handler"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "graphql-mutation-builder",
+      "description": "Claude Code community skill: Graphql Mutation Builder",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "graphql-mutation-builder"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "argocd-app-deployer",
+      "description": "Claude Code community skill: Argocd App Deployer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "argocd-app-deployer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "environment-variables-handler",
+      "description": "Claude Code community skill: Environment Variables Handler",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "environment-variables-handler"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "learning-rate-scheduler",
+      "description": "Claude Code community skill: Learning Rate Scheduler",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "learning-rate-scheduler"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "http-method-helper",
+      "description": "Claude Code community skill: Http Method Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "http-method-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "mocha-test-setup",
+      "description": "Claude Code community skill: Mocha Test Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "mocha-test-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "tensorflow-model-trainer",
+      "description": "Claude Code community skill: Tensorflow Model Trainer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "tensorflow-model-trainer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "sklearn-pipeline-builder",
+      "description": "Claude Code community skill: Sklearn Pipeline Builder",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "sklearn-pipeline-builder"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "dynamodb-table-designer",
+      "description": "Claude Code community skill: Dynamodb Table Designer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "dynamodb-table-designer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "test-retry-config",
+      "description": "Claude Code community skill: Test Retry Config",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "test-retry-config"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "sql-migration-generator",
+      "description": "Claude Code community skill: Sql Migration Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "sql-migration-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "rabbitmq-queue-setup",
+      "description": "Claude Code community skill: Rabbitmq Queue Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "rabbitmq-queue-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "incremental-load-setup",
+      "description": "Claude Code community skill: Incremental Load Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "incremental-load-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "kubernetes-service-manager",
+      "description": "Claude Code community skill: Kubernetes Service Manager",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "kubernetes-service-manager"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "hypermedia-link-generator",
+      "description": "Claude Code community skill: Hypermedia Link Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "hypermedia-link-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "helm-values-manager",
+      "description": "Claude Code community skill: Helm Values Manager",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "helm-values-manager"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "model-checkpoint-manager",
+      "description": "Claude Code community skill: Model Checkpoint Manager",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "model-checkpoint-manager"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "s3-bucket-policy-generator",
+      "description": "Claude Code community skill: S3 Bucket Policy Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "s3-bucket-policy-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "flask-blueprint-creator",
+      "description": "Claude Code community skill: Flask Blueprint Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "flask-blueprint-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "seo-meta-generator",
+      "description": "Claude Code community skill: Seo Meta Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "seo-meta-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "oauth2-flow-helper",
+      "description": "Claude Code community skill: Oauth2 Flow Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "oauth2-flow-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "error-handler-middleware",
+      "description": "Claude Code community skill: Error Handler Middleware",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "error-handler-middleware"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "docker-container-basics",
+      "description": "Claude Code community skill: Docker Container Basics",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "docker-container-basics"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "wandb-experiment-logger",
+      "description": "Claude Code community skill: Wandb Experiment Logger",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "wandb-experiment-logger"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "prefect-flow-builder",
+      "description": "Claude Code community skill: Prefect Flow Builder",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "prefect-flow-builder"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "heap-dump-analyzer",
+      "description": "Claude Code community skill: Heap Dump Analyzer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "heap-dump-analyzer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "sql-injection-detector",
+      "description": "Claude Code community skill: Sql Injection Detector",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "sql-injection-detector"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "responsive-breakpoint-analyzer",
+      "description": "Claude Code community skill: Responsive Breakpoint Analyzer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "responsive-breakpoint-analyzer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "graphql-schema-generator",
+      "description": "Claude Code community skill: Graphql Schema Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "graphql-schema-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "database-schema-designer",
+      "description": "Claude Code community skill: Database Schema Designer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "database-schema-designer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "open-graph-creator",
+      "description": "Claude Code community skill: Open Graph Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "open-graph-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "etag-handler",
+      "description": "Claude Code community skill: Etag Handler",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "etag-handler"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "snapshot-test-helper",
+      "description": "Claude Code community skill: Snapshot Test Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "snapshot-test-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "makefile-generator",
+      "description": "Claude Code community skill: Makefile Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "makefile-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "alertmanager-rules-config",
+      "description": "Claude Code community skill: Alertmanager Rules Config",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "alertmanager-rules-config"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "dockerfile-generator",
+      "description": "Claude Code community skill: Dockerfile Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "dockerfile-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "pinia-store-setup",
+      "description": "Claude Code community skill: Pinia Store Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "pinia-store-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "mutation-test-runner",
+      "description": "Claude Code community skill: Mutation Test Runner",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "mutation-test-runner"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "grpc-service-generator",
+      "description": "Claude Code community skill: Grpc Service Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "grpc-service-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "spike-test-setup",
+      "description": "Claude Code community skill: Spike Test Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "spike-test-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "rate-limiter-config",
+      "description": "Claude Code community skill: Rate Limiter Config",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "rate-limiter-config"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "test-organization-helper",
+      "description": "Claude Code community skill: Test Organization Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "test-organization-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "password-strength-analyzer",
+      "description": "Claude Code community skill: Password Strength Analyzer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "password-strength-analyzer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "request-validator-generator",
+      "description": "Claude Code community skill: Request Validator Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "request-validator-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "cloudwatch-alarm-creator",
+      "description": "Claude Code community skill: Cloudwatch Alarm Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "cloudwatch-alarm-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "apdex-score-calculator",
+      "description": "Claude Code community skill: Apdex Score Calculator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "apdex-score-calculator"
+      ],
+      "stars": 50
     },
     {
       "name": "schema-validator",
-      "description": "Validate JSON and data schemas",
-      "category": "development",
+      "description": "Claude Code community skill: Schema Validator",
+      "category": "community",
       "source": "community",
-      "tags": ["schema", "validation", "json"],
-      "stars": 400
+      "tags": [
+        "community",
+        "schema-validator"
+      ],
+      "stars": 50
     },
     {
-      "name": "elixir-architect",
-      "description": "Expert Elixir/Phoenix development assistance",
-      "category": "professional",
-      "source": "professional",
-      "tags": ["elixir", "phoenix", "functional"],
-      "stars": 500
+      "name": "commit-message-formatter",
+      "description": "Claude Code community skill: Commit Message Formatter",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "commit-message-formatter"
+      ],
+      "stars": 50
     },
     {
-      "name": "resume-tailoring",
-      "description": "Tailor resumes for job applications using AI",
-      "category": "professional",
-      "source": "professional",
-      "tags": ["resume", "job", "career"],
-      "stars": 600
+      "name": "bash-script-helper",
+      "description": "Claude Code community skill: Bash Script Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "bash-script-helper"
+      ],
+      "stars": 50
     },
     {
-      "name": "sql-cli",
-      "description": "Interactive SQL command-line tool",
-      "category": "professional",
-      "source": "professional",
-      "tags": ["sql", "cli", "database"],
-      "stars": 300
+      "name": "data-quality-checker",
+      "description": "Claude Code community skill: Data Quality Checker",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "data-quality-checker"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "accessibility-audit-runner",
+      "description": "Claude Code community skill: Accessibility Audit Runner",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "accessibility-audit-runner"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "spark-job-creator",
+      "description": "Claude Code community skill: Spark Job Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "spark-job-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "vitest-test-creator",
+      "description": "Claude Code community skill: Vitest Test Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "vitest-test-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "filtering-query-builder",
+      "description": "Claude Code community skill: Filtering Query Builder",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "filtering-query-builder"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "flaky-test-detector",
+      "description": "Claude Code community skill: Flaky Test Detector",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "flaky-test-detector"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "eventbridge-rule-creator",
+      "description": "Claude Code community skill: Eventbridge Rule Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "eventbridge-rule-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "image-optimization-helper",
+      "description": "Claude Code community skill: Image Optimization Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "image-optimization-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "spark-sql-optimizer",
+      "description": "Claude Code community skill: Spark Sql Optimizer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "spark-sql-optimizer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "styled-components-helper",
+      "description": "Claude Code community skill: Styled Components Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "styled-components-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "versioning-strategy-helper",
+      "description": "Claude Code community skill: Versioning Strategy Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "versioning-strategy-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "pwa-manifest-generator",
+      "description": "Claude Code community skill: Pwa Manifest Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "pwa-manifest-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "grafana-dashboard-creator",
+      "description": "Claude Code community skill: Grafana Dashboard Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "grafana-dashboard-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "benchmark-suite-creator",
+      "description": "Claude Code community skill: Benchmark Suite Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "benchmark-suite-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "test-naming-enforcer",
+      "description": "Claude Code community skill: Test Naming Enforcer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "test-naming-enforcer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "ansible-playbook-generator",
+      "description": "Claude Code community skill: Ansible Playbook Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "ansible-playbook-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "prometheus-config-generator",
+      "description": "Claude Code community skill: Prometheus Config Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "prometheus-config-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "mixed-precision-trainer",
+      "description": "Claude Code community skill: Mixed Precision Trainer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "mixed-precision-trainer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "data-lineage-tracker",
+      "description": "Claude Code community skill: Data Lineage Tracker",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "data-lineage-tracker"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "package-json-manager",
+      "description": "Claude Code community skill: Package Json Manager",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "package-json-manager"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "sorting-parameter-handler",
+      "description": "Claude Code community skill: Sorting Parameter Handler",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "sorting-parameter-handler"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "docker-compose-creator",
+      "description": "Claude Code community skill: Docker Compose Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "docker-compose-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "kubernetes-deployment-creator",
+      "description": "Claude Code community skill: Kubernetes Deployment Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "kubernetes-deployment-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "route53-record-manager",
+      "description": "Claude Code community skill: Route53 Record Manager",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "route53-record-manager"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "thread-dump-analyzer",
+      "description": "Claude Code community skill: Thread Dump Analyzer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "thread-dump-analyzer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "coverage-report-analyzer",
+      "description": "Claude Code community skill: Coverage Report Analyzer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "coverage-report-analyzer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "mlflow-tracking-setup",
+      "description": "Claude Code community skill: Mlflow Tracking Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "mlflow-tracking-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "percentile-analyzer",
+      "description": "Claude Code community skill: Percentile Analyzer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "percentile-analyzer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "secret-scanner",
+      "description": "Claude Code community skill: Secret Scanner",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "secret-scanner"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "graphql-subscription-setup",
+      "description": "Claude Code community skill: Graphql Subscription Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "graphql-subscription-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "react-component-generator",
+      "description": "Claude Code community skill: React Component Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "react-component-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "api-key-auth-setup",
+      "description": "Claude Code community skill: Api Key Auth Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "api-key-auth-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "step-functions-workflow",
+      "description": "Claude Code community skill: Step Functions Workflow",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "step-functions-workflow"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "jmeter-test-plan-creator",
+      "description": "Claude Code community skill: Jmeter Test Plan Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "jmeter-test-plan-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "cloudfront-distribution-setup",
+      "description": "Claude Code community skill: Cloudfront Distribution Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "cloudfront-distribution-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "nginx-ingress-manager",
+      "description": "Claude Code community skill: Nginx Ingress Manager",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "nginx-ingress-manager"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "rest-endpoint-designer",
+      "description": "Claude Code community skill: Rest Endpoint Designer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "rest-endpoint-designer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "lambda-layer-creator",
+      "description": "Claude Code community skill: Lambda Layer Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "lambda-layer-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "network-latency-tester",
+      "description": "Claude Code community skill: Network Latency Tester",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "network-latency-tester"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "kafka-stream-processor",
+      "description": "Claude Code community skill: Kafka Stream Processor",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "kafka-stream-processor"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "confusion-matrix-generator",
+      "description": "Claude Code community skill: Confusion Matrix Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "confusion-matrix-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "ansible-role-creator",
+      "description": "Claude Code community skill: Ansible Role Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "ansible-role-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "sam-template-builder",
+      "description": "Claude Code community skill: Sam Template Builder",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "sam-template-builder"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "fluentd-config-generator",
+      "description": "Claude Code community skill: Fluentd Config Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "fluentd-config-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "api-throttling-setup",
+      "description": "Claude Code community skill: Api Throttling Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "api-throttling-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "websocket-handler-setup",
+      "description": "Claude Code community skill: Websocket Handler Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "websocket-handler-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "license-compliance-scanner",
+      "description": "Claude Code community skill: License Compliance Scanner",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "license-compliance-scanner"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "dotenv-manager",
+      "description": "Claude Code community skill: Dotenv Manager",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "dotenv-manager"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "sqs-queue-setup",
+      "description": "Claude Code community skill: Sqs Queue Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "sqs-queue-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "pyspark-transformer",
+      "description": "Claude Code community skill: Pyspark Transformer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "pyspark-transformer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "hardcoded-credential-finder",
+      "description": "Claude Code community skill: Hardcoded Credential Finder",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "hardcoded-credential-finder"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "zustand-store-creator",
+      "description": "Claude Code community skill: Zustand Store Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "zustand-store-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "gitignore-generator",
+      "description": "Claude Code community skill: Gitignore Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "gitignore-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "gc-log-analyzer",
+      "description": "Claude Code community skill: Gc Log Analyzer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "gc-log-analyzer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "insecure-deserialization-checker",
+      "description": "Claude Code community skill: Insecure Deserialization Checker",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "insecure-deserialization-checker"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "bundle-size-analyzer",
+      "description": "Claude Code community skill: Bundle Size Analyzer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "bundle-size-analyzer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "kubernetes-ingress-config",
+      "description": "Claude Code community skill: Kubernetes Ingress Config",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "kubernetes-ingress-config"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "unittest-test-creator",
+      "description": "Claude Code community skill: Unittest Test Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "unittest-test-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "airflow-operator-creator",
+      "description": "Claude Code community skill: Airflow Operator Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "airflow-operator-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "tensorboard-visualizer",
+      "description": "Claude Code community skill: Tensorboard Visualizer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "tensorboard-visualizer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "json-config-manager",
+      "description": "Claude Code community skill: Json Config Manager",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "json-config-manager"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "airflow-dag-generator",
+      "description": "Claude Code community skill: Airflow Dag Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "airflow-dag-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "conditional-request-helper",
+      "description": "Claude Code community skill: Conditional Request Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "conditional-request-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "typeorm-entity-generator",
+      "description": "Claude Code community skill: Typeorm Entity Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "typeorm-entity-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "locust-test-creator",
+      "description": "Claude Code community skill: Locust Test Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "locust-test-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "terraform-module-creator",
+      "description": "Claude Code community skill: Terraform Module Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "terraform-module-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "cors-policy-validator",
+      "description": "Claude Code community skill: Cors Policy Validator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "cors-policy-validator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "csrf-protection-validator",
+      "description": "Claude Code community skill: Csrf Protection Validator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "csrf-protection-validator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "react-hook-creator",
+      "description": "Claude Code community skill: React Hook Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "react-hook-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "cloudformation-template-creator",
+      "description": "Claude Code community skill: Cloudformation Template Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "cloudformation-template-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "feature-engineering-helper",
+      "description": "Claude Code community skill: Feature Engineering Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "feature-engineering-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "redis-cache-manager",
+      "description": "Claude Code community skill: Redis Cache Manager",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "redis-cache-manager"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "train-test-splitter",
+      "description": "Claude Code community skill: Train Test Splitter",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "train-test-splitter"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "throughput-calculator",
+      "description": "Claude Code community skill: Throughput Calculator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "throughput-calculator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "security-group-generator",
+      "description": "Claude Code community skill: Security Group Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "security-group-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "iam-role-generator",
+      "description": "Claude Code community skill: Iam Role Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "iam-role-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "session-security-checker",
+      "description": "Claude Code community skill: Session Security Checker",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "session-security-checker"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "request-body-validator",
+      "description": "Claude Code community skill: Request Body Validator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "request-body-validator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "readme-generator",
+      "description": "Claude Code community skill: Readme Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "readme-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "pytest-test-generator",
+      "description": "Claude Code community skill: Pytest Test Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "pytest-test-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "code-injection-detector",
+      "description": "Claude Code community skill: Code Injection Detector",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "code-injection-detector"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "version-bumper",
+      "description": "Claude Code community skill: Version Bumper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "version-bumper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "fastapi-router-creator",
+      "description": "Claude Code community skill: Fastapi Router Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "fastapi-router-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "ssh-key-manager",
+      "description": "Claude Code community skill: Ssh Key Manager",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "ssh-key-manager"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "env-secret-detector",
+      "description": "Claude Code community skill: Env Secret Detector",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "env-secret-detector"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "consul-service-discovery",
+      "description": "Claude Code community skill: Consul Service Discovery",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "consul-service-discovery"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "go-test-generator",
+      "description": "Claude Code community skill: Go Test Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "go-test-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "metadata-extractor",
+      "description": "Claude Code community skill: Metadata Extractor",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "metadata-extractor"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "stress-test-config",
+      "description": "Claude Code community skill: Stress Test Config",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "stress-test-config"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "stub-creator",
+      "description": "Claude Code community skill: Stub Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "stub-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "api-rate-limiting-config",
+      "description": "Claude Code community skill: Api Rate Limiting Config",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "api-rate-limiting-config"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "cdc-pipeline-creator",
+      "description": "Claude Code community skill: Cdc Pipeline Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "cdc-pipeline-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "sns-topic-config",
+      "description": "Claude Code community skill: Sns Topic Config",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "sns-topic-config"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "kafka-producer-consumer",
+      "description": "Claude Code community skill: Kafka Producer Consumer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "kafka-producer-consumer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "roc-curve-plotter",
+      "description": "Claude Code community skill: Roc Curve Plotter",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "roc-curve-plotter"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "dagster-pipeline-creator",
+      "description": "Claude Code community skill: Dagster Pipeline Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "dagster-pipeline-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "https-certificate-checker",
+      "description": "Claude Code community skill: Https Certificate Checker",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "https-certificate-checker"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "aria-attribute-helper",
+      "description": "Claude Code community skill: Aria Attribute Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "aria-attribute-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "s3-lifecycle-config",
+      "description": "Claude Code community skill: S3 Lifecycle Config",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "s3-lifecycle-config"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "color-contrast-checker",
+      "description": "Claude Code community skill: Color Contrast Checker",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "color-contrast-checker"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "cpu-profiler-config",
+      "description": "Claude Code community skill: Cpu Profiler Config",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "cpu-profiler-config"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "gin-middleware-creator",
+      "description": "Claude Code community skill: Gin Middleware Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "gin-middleware-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "cdk-stack-generator",
+      "description": "Claude Code community skill: Cdk Stack Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "cdk-stack-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "tailwind-class-optimizer",
+      "description": "Claude Code community skill: Tailwind Class Optimizer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "tailwind-class-optimizer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "api-gateway-config",
+      "description": "Claude Code community skill: Api Gateway Config",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "api-gateway-config"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "test-data-builder",
+      "description": "Claude Code community skill: Test Data Builder",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "test-data-builder"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "dependency-vulnerability-checker",
+      "description": "Claude Code community skill: Dependency Vulnerability Checker",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "dependency-vulnerability-checker"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "npm-scripts-optimizer",
+      "description": "Claude Code community skill: Npm Scripts Optimizer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "npm-scripts-optimizer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "optuna-study-creator",
+      "description": "Claude Code community skill: Optuna Study Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "optuna-study-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "code-splitting-helper",
+      "description": "Claude Code community skill: Code Splitting Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "code-splitting-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "background-worker-creator",
+      "description": "Claude Code community skill: Background Worker Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "background-worker-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "response-schema-generator",
+      "description": "Claude Code community skill: Response Schema Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "response-schema-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "flame-graph-generator",
+      "description": "Claude Code community skill: Flame Graph Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "flame-graph-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "flink-job-creator",
+      "description": "Claude Code community skill: Flink Job Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "flink-job-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "bearer-token-validator",
+      "description": "Claude Code community skill: Bearer Token Validator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "bearer-token-validator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "api-testing-helper",
+      "description": "Claude Code community skill: Api Testing Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "api-testing-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "kubernetes-secrets-manager",
+      "description": "Claude Code community skill: Kubernetes Secrets Manager",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "kubernetes-secrets-manager"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "password-hash-generator",
+      "description": "Claude Code community skill: Password Hash Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "password-hash-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "eks-cluster-config",
+      "description": "Claude Code community skill: Eks Cluster Config",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "eks-cluster-config"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "iam-policy-creator",
+      "description": "Claude Code community skill: Iam Policy Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "iam-policy-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "prisma-schema-helper",
+      "description": "Claude Code community skill: Prisma Schema Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "prisma-schema-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "performance-baseline-creator",
+      "description": "Claude Code community skill: Performance Baseline Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "performance-baseline-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "k6-script-generator",
+      "description": "Claude Code community skill: K6 Script Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "k6-script-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "xss-vulnerability-scanner",
+      "description": "Claude Code community skill: Xss Vulnerability Scanner",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "xss-vulnerability-scanner"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "factory-pattern-creator",
+      "description": "Claude Code community skill: Factory Pattern Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "factory-pattern-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "spy-setup-helper",
+      "description": "Claude Code community skill: Spy Setup Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "spy-setup-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "contract-test-creator",
+      "description": "Claude Code community skill: Contract Test Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "contract-test-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "yaml-config-validator",
+      "description": "Claude Code community skill: Yaml Config Validator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "yaml-config-validator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "github-actions-starter",
+      "description": "Claude Code community skill: Github Actions Starter",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "github-actions-starter"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "dataset-loader-creator",
+      "description": "Claude Code community skill: Dataset Loader Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "dataset-loader-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "web-vitals-monitor",
+      "description": "Claude Code community skill: Web Vitals Monitor",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "web-vitals-monitor"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "sequelize-model-creator",
+      "description": "Claude Code community skill: Sequelize Model Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "sequelize-model-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "elasticache-config",
+      "description": "Claude Code community skill: Elasticache Config",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "elasticache-config"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "cookie-security-analyzer",
+      "description": "Claude Code community skill: Cookie Security Analyzer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "cookie-security-analyzer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "css-module-generator",
+      "description": "Claude Code community skill: Css Module Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "css-module-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "helm-chart-generator",
+      "description": "Claude Code community skill: Helm Chart Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "helm-chart-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "hyperparameter-tuner",
+      "description": "Claude Code community skill: Hyperparameter Tuner",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "hyperparameter-tuner"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "api-key-manager",
+      "description": "Claude Code community skill: Api Key Manager",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "api-key-manager"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "keyboard-navigation-tester",
+      "description": "Claude Code community skill: Keyboard Navigation Tester",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "keyboard-navigation-tester"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "vpc-network-designer",
+      "description": "Claude Code community skill: Vpc Network Designer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "vpc-network-designer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "early-stopping-callback",
+      "description": "Claude Code community skill: Early Stopping Callback",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "early-stopping-callback"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "content-security-policy-generator",
+      "description": "Claude Code community skill: Content Security Policy Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "content-security-policy-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "fixture-generator",
+      "description": "Claude Code community skill: Fixture Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "fixture-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "api-test-generator",
+      "description": "Claude Code community skill: Api Test Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "api-test-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "database-test-helper",
+      "description": "Claude Code community skill: Database Test Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "database-test-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "linux-commands-guide",
+      "description": "Claude Code community skill: Linux Commands Guide",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "linux-commands-guide"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "graphql-resolver-creator",
+      "description": "Claude Code community skill: Graphql Resolver Creator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "graphql-resolver-creator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "performance-lighthouse-runner",
+      "description": "Claude Code community skill: Performance Lighthouse Runner",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "performance-lighthouse-runner"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "vue-component-generator",
+      "description": "Claude Code community skill: Vue Component Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "vue-component-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "memcached-config-helper",
+      "description": "Claude Code community skill: Memcached Config Helper",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "memcached-config-helper"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "feature-importance-analyzer",
+      "description": "Claude Code community skill: Feature Importance Analyzer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "feature-importance-analyzer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "test-parallelizer",
+      "description": "Claude Code community skill: Test Parallelizer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "test-parallelizer"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "path-traversal-finder",
+      "description": "Claude Code community skill: Path Traversal Finder",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "path-traversal-finder"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "redux-slice-generator",
+      "description": "Claude Code community skill: Redux Slice Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "redux-slice-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "integration-test-setup",
+      "description": "Claude Code community skill: Integration Test Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "integration-test-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "flux-gitops-setup",
+      "description": "Claude Code community skill: Flux Gitops Setup",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "flux-gitops-setup"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "terraform-provider-config",
+      "description": "Claude Code community skill: Terraform Provider Config",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "terraform-provider-config"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "rate-limit-middleware",
+      "description": "Claude Code community skill: Rate Limit Middleware",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "rate-limit-middleware"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "artillery-config-generator",
+      "description": "Claude Code community skill: Artillery Config Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "artillery-config-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "mock-generator",
+      "description": "Claude Code community skill: Mock Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "mock-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "http-header-security-audit",
+      "description": "Claude Code community skill: Http Header Security Audit",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "http-header-security-audit"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "go-handler-generator",
+      "description": "Claude Code community skill: Go Handler Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "go-handler-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "jest-test-generator",
+      "description": "Claude Code community skill: Jest Test Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "jest-test-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "lambda-function-generator",
+      "description": "Claude Code community skill: Lambda Function Generator",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "lambda-function-generator"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "beam-pipeline-builder",
+      "description": "Claude Code community skill: Beam Pipeline Builder",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "beam-pipeline-builder"
+      ],
+      "stars": 50
+    },
+    {
+      "name": "response-time-analyzer",
+      "description": "Claude Code community skill: Response Time Analyzer",
+      "category": "community",
+      "source": "community",
+      "tags": [
+        "community",
+        "response-time-analyzer"
+      ],
+      "stars": 50
     },
     {
       "name": "template-skill",
-      "description": "Template for creating new OpenCode skills",
-      "category": "meta",
+      "description": "Professional skill: Template Skill",
+      "category": "professional",
       "source": "professional",
-      "tags": ["template", "skill", "creation"],
-      "stars": 350
+      "tags": [
+        "professional",
+        "template-skill"
+      ],
+      "stars": 100
+    },
+    {
+      "name": "resume-tailoring",
+      "description": "Professional skill: Resume Tailoring",
+      "category": "professional",
+      "source": "professional",
+      "tags": [
+        "professional",
+        "resume-tailoring"
+      ],
+      "stars": 100
+    },
+    {
+      "name": "elixir-architect",
+      "description": "Professional skill: Elixir Architect",
+      "category": "professional",
+      "source": "professional",
+      "tags": [
+        "professional",
+        "elixir-architect"
+      ],
+      "stars": 100
+    },
+    {
+      "name": "sql-cli",
+      "description": "Professional skill: Sql Cli",
+      "category": "professional",
+      "source": "professional",
+      "tags": [
+        "professional",
+        "sql-cli"
+      ],
+      "stars": 100
     }
   ]
 }

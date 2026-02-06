@@ -8,8 +8,8 @@ set -euo pipefail
 # 配置
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 OPENCODE_SKILLS_DIR="${HOME}/.opencode/skills"
-GITHUB_REPO="DongDaming/opencode-skills-hub"
-VERSION="1.0.0"
+GITHUB_REPO="DamingDong/opencode-skills-hub"
+VERSION="1.1.0"
 
 # 颜色输出
 RED='\033[0;31m'
@@ -45,7 +45,7 @@ OpenCode Skills Hub v${VERSION}
   --help, -h              显示帮助信息
   --all                   安装所有技能
   --category CATEGORY     安装指定类别的所有技能
-                          可用类别: official, community, professional
+                          可用类别: official, community, professional, devops, testing, frontend, backend, cloud, security, ml, data
   --skill SKILL_NAME      安装指定技能
   --list                  列出所有可用技能
   --update                更新到最新版本

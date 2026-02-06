@@ -4,6 +4,8 @@
 
 **精选 Claude Code 技能，OpenCode 开箱即用**
 
+**285+ Skills Available**
+
 [![GitHub Stars](https://img.shields.io/github/stars/DamingDong/opencode-skills-hub)](https://github.com/DamingDong/opencode-skills-hub)
 [![GitHub Issues](https://img.shields.io/github/issues/DamingDong/opencode-skills-hub)](https://github.com/DamingDong/opencode-skills-hub/issues)
 [![License](https://img.shields.io/github/license/DamingDong/opencode-skills-hub)](https://github.com/DamingDong/opencode-skills-hub/blob/main/LICENSE)
@@ -16,7 +18,7 @@
 
 ## ✨ 特性
 
-- 🚀 **一键安装** - 30+ 精选技能，30 秒开始使用
+- 🚀 **一键安装** - 285+ 精选技能，30 秒开始使用
 - 📦 **官方品质** - 来自 Anthropic 官方和社区热门验证
 - 🔄 **持续更新** - 每周同步上游，保持最新
 - 🌏 **中文友好** - 优先支持中文开发者
@@ -73,12 +75,17 @@ curl -fsSL https://raw.githubusercontent.com/DamingDong/opencode-skills-hub/main
 
 | 类别 | 技能数 | 代表技能 |
 |------|--------|----------|
-| 测试 (Testing) | 4 | tdd, jest-test-generator, vitest-test-creator |
-| 前端 (Frontend) | 3 | react-component-generator, tailwind-class-optimizer |
-| 后端 (Backend) | 4 | express-route-generator, fastapi-router-creator |
-| DevOps | 2 | dockerfile-generator, git-workflows |
-| 云服务 (Cloud) | 3 | dynamodb-table-designer, cdk-stack-generator |
-| 文档 (Docs) | 2 | readme-generator, documentation |
+| DevOps 基础 | 25+ | dockerfile, git-workflows, github-actions |
+| DevOps 高级 | 20+ | kubernetes, terraform, helm |
+| 测试自动化 | 25+ | jest, vitest, integration-tests |
+| 前端开发 | 25+ | react, vue, seo |
+| API 开发 | 25+ | openapi, graphql, rest |
+| 后端开发 | 25+ | express, fastapi, django |
+| AWS 云服务 | 25+ | lambda, s3, dynamodb |
+| 数据处理 | 20+ | spark, airflow, dbt |
+| 安全基础 | 25+ | jwt, oauth, security-headers |
+| ML 训练 | 25+ | pytorch, tensorflow, mlflow |
+| 性能测试 | 25+ | k6, jmeter, gatling |
 
 ### 专业领域 (Professional) - 特定领域专家
 
@@ -95,10 +102,10 @@ curl -fsSL https://raw.githubusercontent.com/DamingDong/opencode-skills-hub/main
 
 | 来源 | 数量 | 说明 |
 |------|------|------|
-| 官方 (Official) | 9 | Anthropic 官方技能，64K+ stars |
-| 社区 (Community) | 22 | Claude Code 社区精选 |
+| 官方 (Official) | 9 | Anthropic 官方技能 |
+| 社区 (Community) | 272 | Claude Code 社区精选 |
 | 专业 (Professional) | 4 | 特定领域专家技能 |
-| **总计** | **35+** | 持续增加中 |
+| **总计** | **285+** | 持续增加中 |
 
 ---
 
