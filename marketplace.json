@@ -1,0 +1,306 @@
+{
+  "name": "OpenCode Skills Hub",
+  "description": "精选 Claude Code 技能，OpenCode 开箱即用",
+  "version": "1.0.0",
+  "author": "DongDaming",
+  "github": "DongDaming/opencode-skills-hub",
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "pdf",
+      "description": "PDF processing and manipulation - read, extract, merge, split, create",
+      "category": "document",
+      "source": "official",
+      "tags": ["document", "pdf", "file-processing"],
+      "stars": 1000
+    },
+    {
+      "name": "docx",
+      "description": "Word document processing - create, edit, format Word documents",
+      "category": "document",
+      "source": "official",
+      "tags": ["document", "word", "docx"],
+      "stars": 800
+    },
+    {
+      "name": "xlsx",
+      "description": "Excel spreadsheet processing - read, write, format Excel files",
+      "category": "document",
+      "source": "official",
+      "tags": ["document", "excel", "spreadsheet"],
+      "stars": 700
+    },
+    {
+      "name": "pptx",
+      "description": "PowerPoint presentation creation and editing",
+      "category": "document",
+      "source": "official",
+      "tags": ["document", "powerpoint", "presentation"],
+      "stars": 600
+    },
+    {
+      "name": "skill-creator",
+      "description": "Create new OpenCode skills following best practices",
+      "category": "meta",
+      "source": "official",
+      "tags": ["skill", "creation", "meta"],
+      "stars": 1200
+    },
+    {
+      "name": "mcp-builder",
+      "description": "Build Model Context Protocol servers for extending AI capabilities",
+      "category": "development",
+      "source": "official",
+      "tags": ["mcp", "server", "integration"],
+      "stars": 900
+    },
+    {
+      "name": "web-artifacts-builder",
+      "description": "Build complex React components with Tailwind CSS and shadcn/ui",
+      "category": "frontend",
+      "source": "official",
+      "tags": ["react", "tailwind", "ui", "frontend"],
+      "stars": 1100
+    },
+    {
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces",
+      "category": "frontend",
+      "source": "official",
+      "tags": ["design", "ui", "frontend"],
+      "stars": 850
+    },
+    {
+      "name": "theme-factory",
+      "description": "Style artifacts with pre-set themes or custom designs",
+      "category": "frontend",
+      "source": "official",
+      "tags": ["theme", "style", "design"],
+      "stars": 500
+    },
+    {
+      "name": "tdd",
+      "description": "Test-Driven Development workflow - write tests first, then code",
+      "category": "development",
+      "source": "community",
+      "tags": ["testing", "tdd", "quality"],
+      "stars": 1500
+    },
+    {
+      "name": "git-workflows",
+      "description": "Git workflow management and best practices",
+      "category": "development",
+      "source": "community",
+      "tags": ["git", "workflow", "version-control"],
+      "stars": 900
+    },
+    {
+      "name": "documentation",
+      "description": "Generate and maintain project documentation",
+      "category": "documentation",
+      "source": "community",
+      "tags": ["docs", "documentation"],
+      "stars": 700
+    },
+    {
+      "name": "dockerfile-generator",
+      "description": "Generate optimized Dockerfiles for various runtimes",
+      "category": "devops",
+      "source": "community",
+      "tags": ["docker", "container", "devops"],
+      "stars": 800
+    },
+    {
+      "name": "react-component-generator",
+      "description": "Generate React components with best practices",
+      "category": "frontend",
+      "source": "community",
+      "tags": ["react", "component", "frontend"],
+      "stars": 1100
+    },
+    {
+      "name": "tailwind-class-optimizer",
+      "description": "Optimize and organize Tailwind CSS classes",
+      "category": "frontend",
+      "source": "community",
+      "tags": ["tailwind", "css", "optimization"],
+      "stars": 600
+    },
+    {
+      "name": "seo-meta-generator",
+      "description": "Generate SEO meta tags for web pages",
+      "category": "frontend",
+      "source": "community",
+      "tags": ["seo", "meta", "web"],
+      "stars": 500
+    },
+    {
+      "name": "jest-test-generator",
+      "description": "Generate Jest test files and test cases",
+      "category": "testing",
+      "source": "community",
+      "tags": ["jest", "testing", "javascript"],
+      "stars": 700
+    },
+    {
+      "name": "vitest-test-creator",
+      "description": "Create Vitest test suites for Vue and Vite projects",
+      "category": "testing",
+      "source": "community",
+      "tags": ["vitest", "testing", "vue"],
+      "stars": 500
+    },
+    {
+      "name": "integration-test-setup",
+      "description": "Set up integration testing infrastructure",
+      "category": "testing",
+      "source": "community",
+      "tags": ["testing", "integration"],
+      "stars": 600
+    },
+    {
+      "name": "test-data-builder",
+      "description": "Generate test data for automated tests",
+      "category": "testing",
+      "source": "community",
+      "tags": ["testing", "test-data", "fixtures"],
+      "stars": 400
+    },
+    {
+      "name": "api-mock-generator",
+      "description": "Create API mocks for testing and development",
+      "category": "backend",
+      "source": "community",
+      "tags": ["api", "mock", "testing"],
+      "stars": 500
+    },
+    {
+      "name": "api-testing-helper",
+      "description": "Helper for API testing and validation",
+      "category": "backend",
+      "source": "community",
+      "tags": ["api", "testing", "validation"],
+      "stars": 450
+    },
+    {
+      "name": "openapi-spec-generator",
+      "description": "Generate OpenAPI specifications from code",
+      "category": "backend",
+      "source": "community",
+      "tags": ["openapi", "api", "specification"],
+      "stars": 400
+    },
+    {
+      "name": "express-route-generator",
+      "description": "Generate Express.js route handlers",
+      "category": "backend",
+      "source": "community",
+      "tags": ["express", "nodejs", "backend"],
+      "stars": 550
+    },
+    {
+      "name": "fastapi-router-creator",
+      "description": "Create FastAPI route modules",
+      "category": "backend",
+      "source": "community",
+      "tags": ["fastapi", "python", "backend"],
+      "stars": 500
+    },
+    {
+      "name": "database-schema-designer",
+      "description": "Design and generate database schemas",
+      "category": "backend",
+      "source": "community",
+      "tags": ["database", "schema", "sql"],
+      "stars": 600
+    },
+    {
+      "name": "dynamodb-table-designer",
+      "description": "Design AWS DynamoDB table schemas",
+      "category": "cloud",
+      "source": "community",
+      "tags": ["aws", "dynamodb", "nosql"],
+      "stars": 400
+    },
+    {
+      "name": "cdk-stack-generator",
+      "description": "Generate AWS CDK infrastructure stacks",
+      "category": "cloud",
+      "source": "community",
+      "tags": ["aws", "cdk", "infrastructure"],
+      "stars": 450
+    },
+    {
+      "name": "cloudformation-template-creator",
+      "description": "Create AWS CloudFormation templates",
+      "category": "cloud",
+      "source": "community",
+      "tags": ["aws", "cloudformation", "infrastructure"],
+      "stars": 400
+    },
+    {
+      "name": "readme-generator",
+      "description": "Generate professional README files",
+      "category": "documentation",
+      "source": "community",
+      "tags": ["readme", "documentation"],
+      "stars": 500
+    },
+    {
+      "name": "sql-transform-helper",
+      "description": "Transform and optimize SQL queries",
+      "category": "database",
+      "source": "community",
+      "tags": ["sql", "database", "optimization"],
+      "stars": 450
+    },
+    {
+      "name": "data-quality-checker",
+      "description": "Check and validate data quality",
+      "category": "data",
+      "source": "community",
+      "tags": ["data", "quality", "validation"],
+      "stars": 350
+    },
+    {
+      "name": "schema-validator",
+      "description": "Validate JSON and data schemas",
+      "category": "development",
+      "source": "community",
+      "tags": ["schema", "validation", "json"],
+      "stars": 400
+    },
+    {
+      "name": "elixir-architect",
+      "description": "Expert Elixir/Phoenix development assistance",
+      "category": "professional",
+      "source": "professional",
+      "tags": ["elixir", "phoenix", "functional"],
+      "stars": 500
+    },
+    {
+      "name": "resume-tailoring",
+      "description": "Tailor resumes for job applications using AI",
+      "category": "professional",
+      "source": "professional",
+      "tags": ["resume", "job", "career"],
+      "stars": 600
+    },
+    {
+      "name": "sql-cli",
+      "description": "Interactive SQL command-line tool",
+      "category": "professional",
+      "source": "professional",
+      "tags": ["sql", "cli", "database"],
+      "stars": 300
+    },
+    {
+      "name": "template-skill",
+      "description": "Template for creating new OpenCode skills",
+      "category": "meta",
+      "source": "professional",
+      "tags": ["template", "skill", "creation"],
+      "stars": 350
+    }
+  ]
+}
