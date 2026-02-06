@@ -4,9 +4,9 @@
 
 **精选 Claude Code 技能，OpenCode 开箱即用**
 
-[![GitHub Stars](https://img.shields.io/github/stars/DongDaming/opencode-skills-hub)](https://github.com/DongDaming/opencode-skills-hub)
-[![GitHub Issues](https://img.shields.io/github/issues/DongDaming/opencode-skills-hub)](https://github.com/DongDaming/opencode-skills-hub/issues)
-[![License](https://img.shields.io/github/license/DongDaming/opencode-skills-hub)](https://github.com/DongDaming/opencode-skills-hub/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/DamingDong/opencode-skills-hub)](https://github.com/DamingDong/opencode-skills-hub)
+[![GitHub Issues](https://img.shields.io/github/issues/DamingDong/opencode-skills-hub)](https://github.com/DamingDong/opencode-skills-hub/issues)
+[![License](https://img.shields.io/github/license/DamingDong/opencode-skills-hub)](https://github.com/DamingDong/opencode-skills-hub/blob/main/LICENSE)
 
 **English** | [中文](README_CN.md)
 
@@ -29,7 +29,7 @@
 ### 一键安装所有技能
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/DongDaming/opencode-skills-hub/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/DamingDong/opencode-skills-hub/main/install.sh | bash
 ```
 
 ### 安装特定技能
